@@ -140,6 +140,12 @@ body {
   background: white;
   color: black;
 }
+
+.btn-dark {
+  background: black;
+  color: white;
+}
+
 /* layout */
 .header {
   background-color: black;
@@ -155,6 +161,24 @@ body {
 .about {
   background-color: white;
   padding: 160px;
+}
+
+.contact {
+  padding: 96px 0px;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  color: #ffffff;
+}
+
+.project {
+  background-color: white;
+  padding: 160px 0;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
 }
 
 .nav {
@@ -197,6 +221,35 @@ body {
   padding: 16px;
 }
 
+.solial-media {
+  width: 526px;
+  justify-content: space-between;
+}
+
+.social-link {
+  border-radius: 40px;
+  /* transition: 1s; */
+}
+
+.social-link:hover {
+  box-shadow: 0px 0px 16px 3px #9094ffe5;
+}
+
+.p-r {
+  width: 856px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p-r-desc {
+  width: 636px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* 避免拉伸 */
+}
 *,
 *::before,
 *::after {
@@ -211,9 +264,10 @@ a {
 }
 
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
   vertical-align: middle;
+  display: inline-block;
 }
 
 .jce {
@@ -275,8 +329,13 @@ img {
 .mb-4 {
   margin-bottom: 4px;
 }
+
 .mr-16 {
   margin-right: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .mb-32 {
@@ -285,4 +344,8 @@ img {
 
 .mb-36 {
   margin-bottom: 36px;
+}
+
+.ml-550 {
+  margin-left: 550px;
 }
